@@ -1,0 +1,53 @@
+.python-image {
+	width: 50px;
+}
+.boostrap-image {
+	width: 50px;
+}
+.git-image {
+	width: 80px;
+}
+.react-image {
+	width: 50px;
+}
+.laravel-image {
+	width: 40px;
+}
+.flask-image {
+	width: 150px;
+}
+.go-image {
+	width: 60px;
+}
+.npm-image {
+	width: 43px;
+}
+.solidity-image {
+	width: 60px;
+}
+.openzeppelin-image {
+	width: 200px;
+}
+.typewriter {
+	white-space: nowrap;       
+	width: 18ch;
+	animation: writing 2s steps(20);          
+	overflow: hidden;
+}
+.cursor{
+	animation: 1s cursor-flickering infinite;
+}
+@keyframes writing {
+	from {
+		width: 0;
+	}
+}
+@keyframes cursor-flickering {
+	50% {
+		opacity: 0;
+	}
+}
+.carousel-component {
+	height: 100px;
+}
+	  
