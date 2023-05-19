@@ -50,4 +50,27 @@
 .carousel-component {
 	height: 100px;
 }
-	  
+
+.floating-img {
+  animation: floating 5s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.grayscale {
+	filter: grayscale(100%);
+}
+
+.logos-start {
+	width: 35px;
+}
